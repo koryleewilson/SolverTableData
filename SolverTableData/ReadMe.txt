@@ -12,3 +12,12 @@ I do agree paging should be added.  That should include a paged data object with
 
 I would want to see the use but making it async would probably be beneficial as well.
 
+As for the bonus questions:
+* Can we make the amount of JSON returned smaller in any way?
+	Since this is table data. you could define the header and then rows for the data.  That would avoid defining the header values for every row.
+* Can we add support for paging?
+	Answered above. You could that using Take and Skip on a rowset or in SQL with OFFSET and FETCH 
+* Can we add a simple front-end to show it working?
+	Sure, I used Postman for a front end to test with.  I am most comfortable with MVC, so that is what I would use to test with, but I feel Postman is better as it allows me to see the raw payload.
+* Can we follow foreign keys to display values?
+	Yes, I believe schema information is available in SQLServer.
