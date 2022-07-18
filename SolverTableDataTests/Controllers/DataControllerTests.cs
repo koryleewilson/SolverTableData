@@ -15,9 +15,9 @@ namespace SolverTableDataTests.Controllers
         }
 
         [Test]
-        public void GetTableDataTest()
+        public void GetTableDataSucceeds()
         {
-            // ArrangeM
+            // Arrange
             var mockConfSection = new Mock<IConfigurationSection>();
             mockConfSection.SetupGet(m => m[It.Is<string>(s => s == "001")]).Returns("mock value");
             
