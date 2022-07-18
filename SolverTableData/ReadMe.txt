@@ -21,3 +21,5 @@ As for the bonus questions:
 	Sure, I used Postman for a front end to test with.  I am most comfortable with MVC, so that is what I would use to test with, but I feel Postman is better as it allows me to see the raw payload.
 * Can we follow foreign keys to display values?
 	Yes, I believe schema information is available in SQLServer.
+
+Update: I went ahead and added a simple unit test for the controller
